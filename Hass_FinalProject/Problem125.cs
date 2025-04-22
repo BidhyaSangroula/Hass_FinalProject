@@ -1,4 +1,6 @@
-﻿// Kolton Kohler - Problem 123
+﻿/* Kolton Kohler - Problem 123
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
+*/
 using System;
 using System.Collections.Generic;
 using System.Linq;

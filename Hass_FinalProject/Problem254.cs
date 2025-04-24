@@ -1,6 +1,17 @@
 ﻿/*
- Alex Jarvis
-https://leetcode.com/problems/shortest-palindrome/
+* File Name: Problem254.cs
+
+* Name: Alex Jarvis
+* email: jarvisaw@mail.uc.edu
+* Assignment Number: Final Project
+* Due Date: 4/29
+* Course #/Section: IS3050 001
+* Semester/Year: Spring / 2025
+* Brief Description of the assignment: This assignment had us solve four hard problems and configure an index web form.
+
+* Brief Description of what this module does. This module proved our collaboration skills and tested our skills within C#, CSS, etc.
+* Citations: {Link to specific pages. "StackOverflow" or "w3Schools" is not sufficient. } https://gemini.google.com/app/b02eadcf3f2ecad5
+* Anything else that's relevant: https://leetcode.com/problems/shortest-palindrome/
 */
 
 using System;

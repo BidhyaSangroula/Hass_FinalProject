@@ -5,7 +5,7 @@
 # Assignment Number: Assignment 09
 # Due Date:  04/29/2025
 # Course #/Section: IS 3050 Section 001
-# Semester/Year:   Spring/2025
+# Semester/Year: Spring/2025
 # Brief Description of the assignment:
     
 # Brief Description of what this module does:

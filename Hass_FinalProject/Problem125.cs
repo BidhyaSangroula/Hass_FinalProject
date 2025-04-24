@@ -1,5 +1,15 @@
-﻿/* Kolton Kohler - Problem 123
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
+﻿/* # File Name : {Problem125.cs}
+# Student Name: {Kolton Kohler}
+# email:  {kohlerko@mail.uc.edu}
+# Assignment Number: Final Project  
+# Due Date:   {04/29/25}
+# Course #/Section:   {IS3050 001}
+# Semester/Year:   {Spring 2025}
+# Brief Description of the assignment:  {Found a problem from LeetCode and used AI to code the solution}
+
+# Brief Description of what this module does. {Displays the best time to buy/sell stocks with two test cases}
+# Citations: {https://chatgpt.com/c/6807b974-d978-8000-95ba-4c07d7da8b48}
+# Anything else that's relevant:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
 */
 using System;
 using System.Collections.Generic;

@@ -1,6 +1,19 @@
 ﻿/*
- Bidhya Sangroula
-https://leetcode.com/problems/valid-number/description/
+# File Name : Problem454.cs
+# Student Name: Bidhya Sangroula
+# email: sangroba@mail.uc.edu
+# Assignment Number: Assignment 09
+# Due Date:  04/29/2025
+# Course #/Section: IS 3050 Section 001
+# Semester/Year:   Spring/2025
+# Brief Description of the assignment:
+    
+# Brief Description of what this module does:
+    
+# Citations:
+    chatgpt.com
+# Anything else that's relevant:
+    https://leetcode.com/problems/valid-number/description/
 */
 using System;
 using System.Collections.Generic;

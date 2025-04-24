@@ -1,6 +1,16 @@
 ﻿/*
- Noah Grayem
-https://leetcode.com/problems/longest-valid-parentheses/
+ * File Name: Problem139.cs
+* Name: Noah Grayem
+* email:  grayemnm@mail.uc.edu
+* Assignment Number: Final Project
+* Due Date:   04/29/25
+* Course #/Section:   IS 3050 001
+* Semester/Year:   Spring 2025
+* Brief Description of the assignment: Collaborate using github to create a webpage with problems and solutions from leetcode.
+
+* Brief Description of what this module does: Build experience using github and improve communication and collaboration within teams.
+* Citations: https://leetcode.com/problems/longest-valid-parentheses/
+
 */
 using System;
 using System.Collections.Generic;

@@ -1,7 +1,7 @@
 ﻿/*
 # File Name : index.aspx.cs
 # Student Name: Bidhya Sangroula, Alex Jarvis, Noah Grayem, Kolton Kohler
-# email: sangroba@mail.uc.edu, jarvisaw@mail.uc.edu, grayemnm@mail.uc.edu, 
+# email: sangroba@mail.uc.edu, jarvisaw@mail.uc.edu, grayemnm@mail.uc.edu, kohlerko@mail.uc.edu
 # Assignment Number: Final Project
 # Due Date: 4/29/2025
 # Course #/Section: IS3050-001

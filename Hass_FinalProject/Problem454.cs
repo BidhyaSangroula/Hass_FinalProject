@@ -2,14 +2,14 @@
 # File Name : Problem454.cs
 # Student Name: Bidhya Sangroula
 # email: sangroba@mail.uc.edu
-# Assignment Number: Assignment 09
+# Assignment Number: Final Project
 # Due Date:  04/29/2025
 # Course #/Section: IS 3050 Section 001
 # Semester/Year: Spring/2025
 # Brief Description of the assignment:
-    
+    Implement and demonstrate solutions to selected LeetCode problems using C# in a web project.
 # Brief Description of what this module does:
-    
+    This module checks if a string is a valid number using the IsNumber method and tests the logic with sample inputs in the Solve method
 # Citations:
     chatgpt.com
 # Anything else that's relevant:

@@ -1,4 +1,5 @@
-﻿/* # File Name : {Problem125.cs}
+﻿// Leet Code Problem #123
+/* # File Name : {Problem125.cs}
 # Student Name: {Kolton Kohler}
 # email:  {kohlerko@mail.uc.edu}
 # Assignment Number: Final Project  
@@ -11,6 +12,8 @@
 # Citations: {https://chatgpt.com/c/6807b974-d978-8000-95ba-4c07d7da8b48}
 # Anything else that's relevant:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
 */
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

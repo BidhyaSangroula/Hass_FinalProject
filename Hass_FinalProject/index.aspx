@@ -27,8 +27,10 @@
 <body>
     <form id="form1" runat="server">
         <div class="text-center" style="margin-top: 50px">
-            <h2>Hass Final Project – LeetCode </h2>
-
+            <h1>Hass Final Project – LeetCode </h1>
+            <br />
+            <p>Team Member: Bidhya Sangroula, Alex Jarvis, Noah Grayem, Kolton Kohler</p>
+            <br /> 
             <!-- Problem Buttons -->
             <asp:Button ID="btnClear" runat="server" Text="Clear Solution" OnClick="btnClear_Click" />
             <asp:Button ID="btnProblem125" runat="server" Text="Run Problem 125" OnClick="btnProblem125_Click" />

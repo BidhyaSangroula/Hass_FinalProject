@@ -11,8 +11,8 @@
 # Brief Description of what this module does: 
     This module runs problem solutions when buttons are clicked and shows the results on the webpage.
 # Citations: 
-# chatpgt.com
-# https://leetcode.com/
+    chatpgt.com
+    https://leetcode.com/
 # Anything Else Important: 
 */
 
@@ -76,6 +76,7 @@ namespace Hass_FinalProject
             );
         }
 
+        // Button handler for Problem 139
         protected void btnProblem139_Click(object sender, EventArgs e)
         {
             var p = new Problem139();
@@ -90,6 +91,7 @@ namespace Hass_FinalProject
             );
         }
 
+        // Button handler for Problem 254
         protected void btnProblem254_Click(object sender, EventArgs e)
         {
             var p = new Problem254();
@@ -104,6 +106,7 @@ namespace Hass_FinalProject
             );
         }
 
+        // Button handler for Problem 454
         protected void btnProblem454_Click(object sender, EventArgs e)
         {
             var p = new Problem454();
@@ -111,7 +114,7 @@ namespace Hass_FinalProject
             var outputs = inputs.Select(s => p.IsNumber(s)).ToArray();
             ShowProblem(
                 "Problem 454 – Valid Number",
-                "Given a string s, return whether s is a valid number.",
+                "Given a string s, return whether s is a valid number. For example, all the following are valid numbers: \"2\", \"0089\", \"-0.1\", \"+3.14\", \"4.\", \"-.9\", \"2e10\", \"-90E3\", \"3e+7\", \"+6e-1\", \"53.5e93\", \"-123.456e789\", while the following are not valid numbers: \"abc\", \"1a\", \"1e\", \"e3\", \"99e2.5\", \"--6\", \"-+3\", \"95a54e53\".",
                 $"Test Case 1: \"{inputs[0]}\" | Test Case 2: \"{inputs[1]}\"",
                 $"Test 1: {outputs[0]}",
                 $"Test 2: {outputs[1]}"

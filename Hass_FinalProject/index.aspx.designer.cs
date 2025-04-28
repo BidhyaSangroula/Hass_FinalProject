@@ -69,15 +69,6 @@ namespace Hass_FinalProject
         protected global::System.Web.UI.WebControls.Button btnProblem454;
 
         /// <summary>
-        /// lblTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTitle;
-
-        /// <summary>
         /// pnlOutput control.
         /// </summary>
         /// <remarks>
@@ -87,13 +78,13 @@ namespace Hass_FinalProject
         protected global::System.Web.UI.WebControls.Panel pnlOutput;
 
         /// <summary>
-        /// Label1 control.
+        /// lblTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblTitle;
 
         /// <summary>
         /// lblPrompt control.

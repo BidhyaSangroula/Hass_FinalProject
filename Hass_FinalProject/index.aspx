@@ -11,8 +11,8 @@
 # Brief Description of what this module does: 
      This page shows buttons to run different coding problems and displays the results nicely on the screen.
 # Citations: 
-# chatpgt.com
-# https://leetcode.com/
+    chatpgt.com
+    https://leetcode.com/
 # Anything Else Important: 
 --%>
 
@@ -24,40 +24,43 @@
     <title>Hass Final Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-light">
     <form id="form1" runat="server">
-        <div class="text-center" style="margin-top: 50px">
-            <h1>Hass Final Project – LeetCode </h1>
+        <div class="container text-center mt-5">
+            <h1 class="text-primary">Hass Final Project – LeetCode</h1>
             <br />
-            <p>Team Member: Bidhya Sangroula, Alex Jarvis, Noah Grayem, Kolton Kohler</p>
-            <br /> 
+            <p>
+                <strong class="text-primary">Team Members:</strong>
+                <span class="text-dark">Bidhya Sangroula, Alex Jarvis, Noah Grayem, Kolton Kohler</span>
+            </p>
+            <br />
+
             <!-- Problem Buttons -->
-            <asp:Button ID="btnClear" runat="server" Text="Clear Solution" OnClick="btnClear_Click" />
-            <asp:Button ID="btnProblem125" runat="server" Text="Run Problem 125" OnClick="btnProblem125_Click" />
-            <asp:Button ID="btnProblem139" runat="server" Text="Run Problem 139" OnClick="btnProblem139_Click" />
-            <asp:Button ID="btnProblem254" runat="server" Text="Run Problem 254" OnClick="btnProblem254_Click" />
-            <asp:Button ID="btnProblem454" runat="server" Text="Run Problem 454" OnClick="btnProblem454_Click" />
+            <div class="mb-4">
+                <asp:Button ID="btnClear" runat="server" CssClass="btn btn-danger m-2" Text="Clear Solution" OnClick="btnClear_Click" />
+                <asp:Button ID="btnProblem125" runat="server" CssClass="btn btn-primary m-2" Text="Run Problem 125" OnClick="btnProblem125_Click" />
+                <asp:Button ID="btnProblem139" runat="server" CssClass="btn btn-success m-2" Text="Run Problem 139" OnClick="btnProblem139_Click" />
+                <asp:Button ID="btnProblem254" runat="server" CssClass="btn btn-warning m-2" Text="Run Problem 254" OnClick="btnProblem254_Click" />
+                <asp:Button ID="btnProblem454" runat="server" CssClass="btn btn-info m-2" Text="Run Problem 454" OnClick="btnProblem454_Click" />
+            </div>
 
             <hr />
 
             <!-- Output Placeholders -->
-            <h3>
-                <asp:Label ID="lblTitle" runat="server" />
-            </h3>
-            <asp:Panel ID="pnlOutput" runat="server" Visible="false">
-                <h3>
-                    <asp:Label ID="Label1" runat="server" />
+            <asp:Panel ID="pnlOutput" runat="server" CssClass="card shadow p-4 bg-white" Visible="false">
+                <h3 class="text-primary">
+                    <asp:Label ID="lblTitle" runat="server" />
                 </h3>
-                <p>
-                    <strong>Description:</strong>
+                <p class="text-dark">
+                    <strong class="text-success">Description:</strong><br />
                     <asp:Label ID="lblPrompt" runat="server" />
                 </p>
-                <p>
-                    <strong>Test Cases:</strong>
+                <p class="text-dark">
+                    <strong class="text-warning">Test Cases:</strong><br />
                     <asp:Label ID="lblTestCases" runat="server" />
                 </p>
-                <p>
-                    <strong>Results:</strong>
+                <p class="text-dark">
+                    <strong class="text-info">Results:</strong><br />
                     <asp:Label ID="lblResults" runat="server" />
                 </p>
             </asp:Panel>
